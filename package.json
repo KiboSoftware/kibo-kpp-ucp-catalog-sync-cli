@@ -1,0 +1,29 @@
+{
+  "name": "@kibocommerce/kibo-kpp-ucp-catalog-sync-cli",
+  "version": "0.0.4",
+  "main": "bin/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --ext \".js\" --ignore-path .gitignore .",
+    "prettier": "prettier --write ."
+  },
+  "bin": {
+    "kibo-kpp-ucp-catalog-sync": "./bin/index.js"
+  },
+  "repository": "https://github.com/KiboSoftware/kibo-kpp-ucp-catalog-sync-cli",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "command-line-args": "^5.2.0",
+    "command-line-usage": "^6.1.1",
+    "delay": "^5.0.0",
+    "inquirer": "^8.2.0",
+    "node-fetch": "^3.2.0",
+    "ora": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1"
+  }
+}
